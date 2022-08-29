@@ -1,0 +1,45 @@
+body{
+font-family: 'Noto Sans', sans-serif;
+background-color: white;
+}
+/*Header*/
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px; 
+    margin-top: -55px;
+}
+header{
+    /*You will give 4 values:
+     x-axis,y-axis,spread,color.*/
+    box-shadow: 0px 0.5px 0.5px rgb(170,170,170);
+}
+.nav a:hover{
+    text-decoration: underline;
+    color:rgb(18, 90, 163);
+}
+
+/*Section 1*/
+.input_btn{ 
+    color: white;
+    width:100px; 
+    height: 38px;
+    font-weight: 600;
+    background-color: rgb(52, 63, 191);
+    border-radius: 5px;
+    border:1px solid rgb(52, 63, 191);
+    font-size: 13px;
+}
+.input_btn:hover{
+    background-color: rgb(15, 15, 95);
+}
+
+.job{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.job:focus{
+    outline-color:rgb(52, 63, 191);
+}
